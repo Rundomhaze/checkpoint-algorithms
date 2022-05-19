@@ -17,7 +17,7 @@ function crawlTree(tree) {
 
 function twoSum(arr, target) {
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] + arr[i + 1] === target){
+    if (arr[i] + arr[i + 1] === target) {
       return [i, i + 1]
     }
   }
